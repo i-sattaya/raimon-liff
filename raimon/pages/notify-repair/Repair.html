@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="../nav/nav-header.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="../../styles/index.css" />
+  <link rel="stylesheet" href="../../styles/repair.css" />
+  <title>แจ้งซ่อม</title>
+</head>
+
+<body>
+  <div class="bg-page">
+    <div class="content-body">
+      <nav-component></nav-component>
+      <span class="row">
+        <h2>แจ้งซ่อม</h2>
+        <button class="button-outline button-menu" onclick="window.location.href='HistoryRepair.html'">
+          <p>ประวัติการแจ้งซ่อม</p>
+        </button>
+      </span>
+      <div class="repair-center">
+        <h2>เลือกประเภท</h2>
+        <p>การแจ้งซ่อมพื้นที่ส่วนตัวหรือพื้นที่ส่วนกลาง</p>
+      </div>
+      <div class="card-repair" onclick="window.location.href='./private-area/PrivateArea.html'">
+        <div class="card-blur">
+          <hr />
+          <h3>พื้นที่ส่วนตัว</h3>
+          <div class="img-icon">
+            <img src="../../photo/Icon-feather-home.svg" alt="home" />
+          </div>
+        </div>
+      </div>
+      <div class="card-repair" onclick="window.location.href='./common-area/CommonArea.html'">
+        <div class="card-blur">
+          <hr />
+          <h3>พื้นที่ส่วนกลาง</h3>
+          <div class="img-icon">
+            <img src="../../photo/radar.svg" alt="home" />
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

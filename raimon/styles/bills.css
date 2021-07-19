@@ -1,0 +1,68 @@
+.card-ticket {
+  background-color: white;
+  height: 450px;
+  margin-top: 45px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-ticket p {
+  color: black;
+  font-size: large;
+}
+
+.button-bill {
+  background-color: #121d55;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.card-blur > .content > span > p {
+  font-size: 18px;
+}
+
+.title-data h3 {
+  letter-spacing: 1px;
+}
+
+.button-done {
+  background-color: #ffffff;
+  border: none;
+  color: #121d55;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: unset;
+  border-radius: 100px;
+}
+
+.btn-back {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  cursor: context-menu;
+}
+
+.btn-back > .button-bill {
+  width: 40%;
+  font-family: "DBHeaventBD";
+  padding: 5px;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 45px;
+}
