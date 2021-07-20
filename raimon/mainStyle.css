@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "FCIconic";
+  src: url("font/FC-Iconic-Regular.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DBHeavent";
+  src: url("./assets/font/DBHeaventCondv3.2.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DBHeaventBD";
+  src: url("./assets/font/DBHeaventBdCondv3.2.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "barcode39";
+  src: url("./assets/font/LibreBarcode39-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "DBHeavent";
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+body,
+html {
+  height: 100%;
+}
+
+input {
+  color: #737373;
+  width: 100%;
+  border: none;
+  min-height: 2rem;
+  font-size: 1.1rem;
+  border-radius: 0.35rem;
+}
+input:focus {
+  outline: none;
+}
+
+.content,
+.container,
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  padding: 1rem;
+  min-height: 100vh;
+}
+.content {
+  width: 100%;
+}
+.main {
+  /* height: 100%; */
+  min-height: 100vh;
+  background-color: #1f2d6c;
+}
+
+.btn {
+  height: 100%;
+  min-width: 100px;
+  min-height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+.btn-primary {
+  color: #fff;
+  border: 1px solid #1f2d6c;
+  background-color: #1f2d6c;
+}
+
+.w-100 {
+  width: 100% !important;
+}
