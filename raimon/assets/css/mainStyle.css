@@ -1,6 +1,6 @@
 @font-face {
   font-family: "FCIconic";
-  src: url("font/FC-Iconic-Regular.ttf") format("truetype");
+  src: url("../font/FC-Iconic-Regular.ttf") format("truetype");
 
   font-weight: normal;
   font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "DBHeavent";
-  src: url("./assets/font/DBHeaventCondv3.2.ttf") format("truetype");
+  src: url("../font/DBHeaventCondv3.2.ttf") format("truetype");
 
   font-weight: normal;
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "DBHeaventBD";
-  src: url("./assets/font/DBHeaventBdCondv3.2.ttf") format("truetype");
+  src: url("../font/DBHeaventBdCondv3.2.ttf") format("truetype");
 
   font-weight: normal;
   font-style: normal;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "barcode39";
-  src: url("./assets/font/LibreBarcode39-Regular.ttf") format("truetype");
+  src: url("../font/LibreBarcode39-Regular.ttf") format("truetype");
 }
 * {
   font-family: "DBHeavent";

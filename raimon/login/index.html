@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./loginStyle.css" />
-  <link rel="stylesheet" href="../mainStyle.css" />
+  <link rel="stylesheet" href="../assets/css/mainStyle.css" />
   <title>ลงทะเบียน :: เข้าสู่ระบบ</title>
 </head>
 
@@ -25,19 +25,28 @@
       <section class="content">
         <div class="card">
           <div class="card-body">
-            <form action="">
+            <p id="isLoggedIn"></p>
+            <form id="formRegister" name="formRegister">
               <div class="field-group">
                 <div class="field-lable">หมายเลข บัตรประชาชน / พาสปอร์ต :</div>
-                <div class="field-input"><input type="text" placeholder="หมายเลข บัตรประชาชน / พาสปอร์ต"></div>
+                <div class="field-input">
+                  <input type="text" name="identityNumber" placeholder="หมายเลข บัตรประชาชน / พาสปอร์ต">
+                </div>
+                <small></small>
               </div>
+
               <div class="field-group">
                 <div class="field-lable">ชื่อผู้ใช้งาน :</div>
-                <div class="field-input"><input type="text" placeholder="ชื่อผู้ใช้งาน"></div>
+                <div class="field-input"><input type="text" name="username" placeholder="ชื่อผู้ใช้งาน"></div>
+                <small></small>
               </div>
+
               <div class="field-group">
                 <div class="field-lable">รหัสผ่าน :</div>
-                <div class="field-input"><input type="password" placeholder="รหัสผ่าน"></div>
+                <div class="field-input"><input type="password" name="password" placeholder="รหัสผ่าน"></div>
+                <small></small>
               </div>
+
               <div class="field-button">
                 <button type="submit" class="btn btn-primary w-100">ดำเนินการ</button>
               </div>
@@ -46,8 +55,14 @@
         </div>
       </section>
     </div>
-
   </div>
+  <!-- main script -->
+  <script src="../config/project.config.js"></script>
+  <script src="../assets/js/mainScript.js"></script>
+  <script src="../assets/js/vconsole.min.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <!-- page script -->
+  <script src="loginScript.js"></script>
 </body>
 
 </html>

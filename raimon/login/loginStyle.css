@@ -40,3 +40,13 @@
 .field-button {
   height: 3rem;
 }
+
+.error {
+  color: red !important;
+}
+.field-input.error {
+  border: 1px solid red !important;
+}
+.field-input.success {
+  border: 1px solid #cccccc !important;
+}
