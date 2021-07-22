@@ -30,5 +30,23 @@
     </button>
   </div>
 </body>
+<script src="./assets/js/mainScript.js"></script>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<script>
+  async function main() {
+    liff.ready.then(() => {
+      document.getElementById("isLoggedIn").append(liff.isLoggedIn())
+      if (liff.isLoggedIn()) {
+        window.location.replace('https://i-sattaya.github.io/raimon-liff/raimon/login')
+
+      } else {
+        // liff.login()
+        window.location.replace('https://i-sattaya.github.io/raimon-liff/raimon/login')
+      }
+    })
+    await liff.init({ liffId: projectConfig.liffId })
+  }
+  main()
+</script>
 
 </html>
