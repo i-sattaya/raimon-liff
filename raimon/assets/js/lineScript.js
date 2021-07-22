@@ -93,20 +93,3 @@ function getEnvironment() {
     document.getElementById("btnClose").style.display = "none"
   }
 }
-
-async function main() {
-  liff.ready.then(() => {
-    document.getElementById("isLoggedIn").append(liff.isLoggedIn())
-    if (liff.isLoggedIn()) {
-      getEnvironment()
-      getUserProfile()
-      getContext()
-      getFriendship()
-      createUniversalLink()
-    } else {
-      liff.login()
-    }
-  })
-  await liff.init({ liffId: "YOUR-LIFF-ID" })
-}
-main()

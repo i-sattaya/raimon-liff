@@ -55,7 +55,7 @@ async function main() {
       console.log("isLoggedIn")
       formListener()
     } else {
-      liff.login()
+      liff.login('https://i-sattaya.github.io/raimon-liff/raimon/login')
     }
   })
   await liff.init({ liffId: projectConfig.liffId })
